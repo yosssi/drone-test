@@ -7,8 +7,8 @@ import (
 )
 
 var (
-	taro   = User{Name: "Taro", Age: 20}
-	hanako = User{Name: "Hanako", Age: 22}
+	taro   = &User{Name: "Taro", Age: 20}
+	hanako = &User{Name: "Hanako", Age: 22}
 )
 
 // テストデータを投入
