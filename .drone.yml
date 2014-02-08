@@ -1,7 +1,7 @@
 image: go1.2
 env:
   - GOPATH=/var/cache/drone
-service:
+services:
   - mongodb
 script:
   - go get labix.org/v2/mgo
