@@ -10,5 +10,5 @@ script:
   - go test -cover -v
 notify:
   hipchat:
-    room: 432995
+    room: dronetest
     token: BouFtrrti0SpwcjreLG74LEMojaNt3VezwhzywwF
