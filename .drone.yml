@@ -2,9 +2,13 @@ image: go1.2
 env:
   - GOPATH=/var/cache/drone
 services:
-  - bradrydzewski/mongodb
+  - mongodb
 script:
   - go get labix.org/v2/mgo
   - go get labix.org/v2/mgo/bson
   - go build
   - go test -cover -v
+notify:
+  hipchat:
+    room: 432995
+    token: 7af96e16fbdd355c61e1a8d01344f5
