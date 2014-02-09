@@ -11,4 +11,4 @@ script:
 notify:
   hipchat:
     room: dronetest
-    token: BouFtrrti0SpwcjreLG74LEMojaNt3VezwhzywwF
+    token: 7af96e16fbdd355c61e1a8d01344f5
